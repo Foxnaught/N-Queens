@@ -1,11 +1,11 @@
 # N-Queens
-Will count the number of ways N-queens can be placed on an NxN chessboard.
+This will count the number of ways N-queens can be placed on an NxN chessboard.
 
 n-queens.py was the earliest attempt at implementation and nqueens.c was a port of it to C.
 These are both quite slow compared to later attempts.
 
-I later looked online and discovered a bitfield method which uses bitwise operation and integers instead of arrays. This makes for much faster operations.
-I implemented these changed in nqueenBitfield.c and then a smaller and slightly faster tinyNQueens.c
+I later looked online and discovered a bitfield method which uses bitwise operations and integers instead of arrays. This method is much faster.
+I implemented these changes in nqueenBitfield.c and then a smaller and slightly faster tinyNQueens.c
 
 tinyNQueens.c should be the fastest implementation.
 
