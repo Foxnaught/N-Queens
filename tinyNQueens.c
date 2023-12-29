@@ -36,6 +36,6 @@ void main()
 	checker = pow(2, listLen) - 1;
 	bitRecurse(0, 0, 0);
 	time(&end);
-	printf("Seconds: %f\n", (int)(end - start));
+	printf("Seconds: %d\n", (int)(end - start));
 	printf("Number of solutions: %i\n", permCount);
 }
